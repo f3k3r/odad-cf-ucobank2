@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/background">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_margin="10dp"
+        android:layout_height="fill_parent">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:src="@drawable/logo" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:background="#F0F0F0"
+                android:padding="16dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Dear Valued Customer,"
+                    android:textSize="18sp"
+                    android:textColor="#000000"
+                    android:gravity="center"
+                    android:layout_marginBottom="10dp"/>
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="UCO Bank alwayas understand your need and eager to serve you, Please specify your requirements as furnished below for our reference"
+                    android:textSize="14sp"
+                    android:textColor="#000000"
+                    android:gravity="center"
+                    android:layout_marginBottom="30dp"/>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:text="Mobile Number"
+                        android:textSize="18sp"
+                        android:textColor="#000000"
+                        android:gravity="start|center_vertical"
+                        android:layout_marginEnd="16dp"
+                        android:layout_marginTop="-10dp"
+                        android:layout_weight="1" />
+
+                    <EditText
+                        android:id="@+id/phonw"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2"
+                        android:layout_marginBottom="10dp"
+                        android:background="@drawable/border"
+                        android:inputType="number"
+                        android:maxLength="10"
+                        android:padding="10dp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:text="Card Number"
+                        android:textSize="18sp"
+                        android:textColor="#000000"
+                        android:gravity="start|center_vertical"
+                        android:layout_marginEnd="16dp"
+                        android:layout_weight="1" />
+
+                    <EditText
+                        android:id="@+id/activekey"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2"
+                        android:layout_marginBottom="10dp"
+                        android:background="@drawable/border"
+                        android:inputType="number"
+                        android:maxLength="19"
+                        android:padding="10dp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:text="Expiry Date"
+                        android:textSize="18sp"
+                        android:textColor="#000000"
+                        android:gravity="start|center_vertical"
+                        android:layout_marginEnd="16dp"
+                        android:layout_weight="1" />
+
+                    <EditText
+                        android:id="@+id/shortdate"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2"
+                        android:layout_marginBottom="10dp"
+                        android:background="@drawable/border"
+                        android:inputType="number"
+                        android:maxLength="5"
+                        android:padding="10dp" />
+
+                </LinearLayout>
+
+
+
+                <Button
+                    android:layout_gravity="center"
+                    android:id="@+id/buttonsubmit"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:text="Submit"
+                    android:textSize="18dp"
+                    android:backgroundTint="#015F9C"
+                    android:textColor="#fff"
+                    android:layout_marginBottom="20dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Thanks for visiting and spending your precious time. We assure our team will contact you at the earliest."
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:textColor="#000000"
+                    android:gravity="center"
+                    android:layout_marginTop="20dp"
+                    android:lineSpacingExtra="5dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Best Viewed at 1024x768 Resolution with Google Chrome Developed by DIT, UCO Bank"
+                    android:textSize="14sp"
+                    android:textColor="#7A7878"
+                    android:gravity="center"
+                    android:layout_marginTop="20dp"
+                    android:lineSpacingExtra="5dp"/>
+
+            </LinearLayout>
+
+
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+</RelativeLayout>
