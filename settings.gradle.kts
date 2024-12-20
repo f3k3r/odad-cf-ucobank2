@@ -19,6 +19,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "Union Bank"
+rootProject.name = "Uco Bank2"
 include(":app")
  
